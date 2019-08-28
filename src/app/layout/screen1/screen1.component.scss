@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap-grid';
+
+.consulta {
+    margin-top: 5px;
+    overflow: hidden;
+    .consulta-titulo {
+      font-size: 22px;
+    }
+    .tabela {
+      overflow: auto;
+      margin-right: 0px;
+    }
+  }

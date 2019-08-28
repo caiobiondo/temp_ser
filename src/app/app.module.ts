@@ -1,6 +1,8 @@
 import { LayoutModule } from '@angular/cdk/layout';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { NgModule } from '@angular/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import {
     MatButtonModule,
     MatIconModule,
@@ -35,6 +37,9 @@ export const createTranslateLoader = (http: HttpClient) => {
         BrowserAnimationsModule,
         LayoutModule,
         OverlayModule,
+        MatDatepickerModule,
+        FormsModule,
+    ReactiveFormsModule,
         HttpClientModule,
         TranslateModule.forRoot({
             loader: {
